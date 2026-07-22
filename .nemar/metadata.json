@@ -2,7 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Auditory Streaming and Interoception",
-  "description": "This dataset comprises auditory streaming and interoception data collected from human participants using electrophysiological recordings. The study investigates the relationship between auditory perceptual organization and interoceptive awareness, combining behavioral measures with neurophysiological recordings to examine how internal bodily signals influence auditory scene analysis.",
+  "description": "This dataset comprises auditory neurophysiological recordings investigating the relationship between auditory streaming perception and interoceptive awareness. Participants engaged in auditory tasks while electrophysiological signals were recorded, enabling examination of how the brain processes complex auditory scenes and integrates bodily state information during perceptual organization.",
+  "methods_description": "Electrophysiological data were collected during auditory streaming tasks. Data are organized according to the Brain Imaging Data Structure (BIDS) standard for EEG, facilitating standardized analysis and sharing.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -22,23 +23,17 @@
       "term": "interoception"
     },
     {
-      "term": "auditory perception"
+      "term": "perceptual organization"
     },
     {
-      "term": "brain imaging"
-    },
-    {
-      "term": "electrophysiology"
+      "term": "Electrophysiology",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004594"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on007895",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007895",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -56,6 +51,11 @@
       "identifier": "10.18112/openneuro.ds007895.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007895",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -70,7 +70,7 @@
     "eeg"
   ],
   "sizes": [
-    "0.0 KB (183 files)"
+    "7.8 GB (183 files)"
   ],
   "formats": [
     ".DS_Store",
@@ -83,6 +83,5 @@
     ".vmrk",
     ".yml"
   ],
-  "methods_description": "Electrophysiological data were collected and organized according to the Brain Imaging Data Structure (BIDS) standard for EEG. Data acquisition and preprocessing followed established protocols documented in the MNE-BIDS framework.",
   "source_hash": "96a374a5a06943290b72b5c1b94eeb0d548075b5448f720932b563c25a4f86e7"
 }
