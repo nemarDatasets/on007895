@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Auditory Streaming and Interoception",
-  "description": "This dataset comprises auditory neurophysiological recordings investigating the relationship between auditory streaming perception and interoceptive awareness. Participants engaged in auditory tasks while electrophysiological signals were recorded, enabling examination of how the brain processes complex auditory scenes and integrates bodily state information during perceptual organization.",
+  "description": "EEG dataset on auditory streaming and interoception, collected at the University of Chicago and organized in BIDS format. The README gives few details of the experimental design, so the description rests mainly on the dataset name and metadata.",
   "methods_description": "Electrophysiological data were collected during auditory streaming tasks. Data are organized according to the Brain Imaging Data Structure (BIDS) standard for EEG, facilitating standardized analysis and sharing.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -20,15 +20,12 @@
       "term": "auditory streaming"
     },
     {
-      "term": "interoception"
-    },
-    {
-      "term": "perceptual organization"
-    },
-    {
-      "term": "Electrophysiology",
+      "term": "Interoception",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004594"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D065812"
+    },
+    {
+      "term": "auditory perception"
     }
   ],
   "related_identifiers": [
@@ -40,12 +37,12 @@
     {
       "identifier": "10.21105/joss.01896",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "References"
     },
     {
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "References"
     },
     {
       "identifier": "10.18112/openneuro.ds007895.v1.0.0",
@@ -70,7 +67,7 @@
     "eeg"
   ],
   "sizes": [
-    "7.8 GB (183 files)"
+    "7.24 GB (183 files)"
   ],
   "formats": [
     ".DS_Store",
